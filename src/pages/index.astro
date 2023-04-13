@@ -30,19 +30,19 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, I'm Carl Guo"
+					tagline="I am a student studying Computer Science at Purdue."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<!--<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>-->
+						<Pill><Icon icon="microphone-stage" size="1.33em" /> I want to go to Mars</Pill>
+						<!--<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>-->
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Carl Guo smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
@@ -81,17 +81,17 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Elon Musk's Best Twitter Jokes</h3>
 					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
+						Elon Musk, if you ever see this message, I have collected your best jokes. Please take me to Mars. Thank you.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Nuke Mars!', 'Biden is a damp sock puppet in human form.',
+							 'Next I\’m buying Coca-Cola to put the cocaine back in.'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
